@@ -4,6 +4,8 @@ MemViz is a visualization tool designed to help users understand memory usage an
 
 ## How to Run the Code
 
+### Directly run in browser:- https://dhruvspatel6113.github.io/MemViz/
+
 To run the MemViz application on your local server, follow these steps:
 
 1. Clone the repository:
