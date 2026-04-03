@@ -64,7 +64,7 @@ If you want to modify the C++ engine code, you will need to recompile it using E
 
 - Emscripten (for development/modification)
 - A modern web browser
-- A local HTTP server (Python, Node.js, or similar)
+- A local HTTP server
 
 ## Contributing
 
