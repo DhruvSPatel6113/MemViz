@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Memory Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h2>C++ Code Simulator</h2>
+            <div class="controls">
+                <button id="btn-run" style="background-color: #28a745;">Run Code</button>
+                <div>
+                    <button id="btn-prev" disabled>&#8592; Prev</button>
+                    <span id="step-counter" style="margin: 0 10px;">Step 0 / 0</span>
+                    <button id="btn-next" disabled>Next &#8594;</button>
+                </div>
+            </div>
+            <textarea id="code-input" spellcheck="false"></textarea>
+        </div>
+
+        <div class="right-panel">
+            <svg id="arrow-canvas"></svg>
+
+            <div class="memory-section">
+                <h3>Call Stack</h3>
+                <div id="stack-container" class="memory-container"></div>
+            </div>
+            
+            <div class="memory-section">
+                <h3>Heap Memory</h3>
+                <div id="heap-container" class="memory-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="memory_engine.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
